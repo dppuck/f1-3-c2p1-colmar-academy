@@ -1,0 +1,185 @@
+/*Sorry I couldn't complete the project in the time I was given.
+However I was on holiday for 2 weeks and could not do coding while
+away. I understand that you can only mark what is there but please
+note it is not up to my usual standards.
+Thanks*/
+
+/*Best veiwed at a width of 997px*/
+
+body {
+  font-family: "Saira Semi Condensed";
+}
+
+/*Header*/
+
+a {
+  color: inherit;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  height: 64px;
+  background-color: white;
+  text-align: center;
+  align-items: center;
+  margin-top: 0;
+  z-index: 10;
+}
+
+header img {
+  height: 32px;
+  padding-left: 24px;
+  margin-top: 8px;
+}
+
+header nav span {
+  padding: 10px 24px
+}
+
+header #logo {
+  font-family: Lato;
+  font-weight: bold;
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+header #grey {
+  color: #d8d8d8;
+  padding-right: 350px;
+}
+
+/*Banner*/
+
+#banner {
+  background-color: #d8d8d8;
+  width: 100%;
+  display: flex;
+}
+
+#banner img {
+  margin: 32px 24px;
+  width: 100%;
+}
+
+#banner h1 {
+  font-size: 33.6px;
+  font-weight: bold;
+}
+
+#banner span {
+  display: block;
+  font-size: 33.6px;
+}
+
+#banner span, h1 {
+  color: #4a4a4a;
+}
+
+#pt_2 {
+  width: 40%;
+  margin-left: auto;
+  align-items: center;
+  display: flex;
+  flex-wrap:wrap;
+}
+
+#pt_2_inner {
+  width: 100%;
+  height: 50%;
+  margin-left: auto;
+  text-align: left;
+  margin-top: 96px;
+  align-items: center;
+  display: flex;
+  flex-wrap:wrap;
+}
+
+#pt_1 {
+  width: 55%;
+  margin-top: 64px;
+}
+
+#button {
+  font-size: 25px !important;
+  background-color: #4a4a4a;
+  color: white !important;
+  padding: 8px 48px;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+#button:hover {
+  background-color: grey;
+}
+
+/*Academy Information*/
+
+#academy_info {
+  height: 33px;
+  width: 60%;
+  display: inline;
+  margin-top: 32px;
+}
+
+#ai_main_link {
+  width: 60%
+}
+
+#ai_main_link img {
+  width: 100%;
+  margin: 32px 24px;
+}
+
+#ai_main_link h1 {
+  margin-left: 24px;
+  font-size: 33.6px;
+}
+
+#ai_main_link span {
+  margin-left: 24px;
+  padding-top: 24px;
+}
+
+.border {
+  margin-left: 24px;
+}
+
+#ai_secondary_links_box {
+  width: 30%;
+  float: right;
+}
+
+.ai_secondary_links img {
+  width: 35%;
+  height: auto;
+  margin: 16px;
+}
+
+.ai_secondary_links {
+  border-top: 2px solid #d8d8d8;
+  border-left: 2px solid #d8d8d8;
+}
+
+#ai_secondary_links_dark {
+  background-color: #d8d8d8;
+}
+
+#academy_info_2 {
+  margin-top: ;
+}
+
+#academy_info img {
+  display: inline;
+}
+
+.ai_secondary_links span,h3 {
+  width: 55%;
+  float: right;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
